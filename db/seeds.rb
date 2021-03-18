@@ -49,5 +49,23 @@ Book.create([
         author: "Ben Carson",
         description: "Ben Carson, M.D., works medical miracles. Today, he's one of the most celebrated neurosurgeons in the world. In Gifted Hands, he tells of his inspiring odyssey from his childhood in inner-city Detroit to his position as director of pediatric neurosurgery at Johns Hopkins Hospital at age 33. Ben Carson is a role model for anyone who attempts the seemingly impossible as he takes you into the operating room where he has saved countless lives. Filled with fascinating case histories, this is the dramatic and intimate story of Ben Carson's struggle to beat the odds -- and of the faith and genius that make him one of the greatest life-givers of the century. --This text refers to an out of print or unavailable edition of this title."
     },
+    {
+        name: "The Quirky Tale Of April Hale",
+        image: 'https://res.cloudinary.com/temmarie/image/upload/v1599160088/sscjkkghdqenyp0dhyvd.jpg',
+        author: "DemonicBlackCat",
+        description: " A coming of age story about loss, the wonders of falling in love, and ultimately, pretending to be normal. Get inside April's distorted and yet humorous perspective, and watch as her tale unfolds into a shocking finish."
+    },
+    {
+        name: "A Good Marriage",
+        image: 'https://res.cloudinary.com/temmarie/image/upload/v1599159977/hexqj9ez6ozzfmd1zag7.jpg',
+        author: "Stephen King",
+        description: "A Good Marriage is a novella by Stephen King, published in his collection Full Dark, No Stars."
+    },
+    {
+        name: "LOTR: The Fellowship Of The Rings",
+        image: 'https://res.cloudinary.com/temmarie/image/upload/v1599147113/r0ydpixlhjkfgqa1dsvh.jpg',
+        author: "J. R. R. Tolkien",
+        description: "A young hobbit, Frodo, who has found the One Ring that belongs to the Dark Lord Sauron, begins his journey with eight companions to Mount Doom, the only place where it can be destroyed."
+    },
     
 ])

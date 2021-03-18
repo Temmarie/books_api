@@ -23,9 +23,14 @@ class Api::V1::BooksController < ApplicationController
     if book
       render json: book, status: 200
     else
-      render json; {error: "Book not found."}
+      render json: {error: "Book not found."}
     end
   end
+
+  # def destroy
+  #   Book.find(params[:id]).destroy!
+  #   head :no_content
+  # end
 
   private
   def book_params
