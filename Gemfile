@@ -14,8 +14,8 @@ gem 'puma', '~> 5.0'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
+gem 'bcrypt', '~> 3.1.7'
+gem 'pry'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -23,11 +23,17 @@ gem 'puma', '~> 5.0'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
+gem 'devise'
+gem 'cloudinary'
+gem 'jwt'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'capybara', '>= 2.15'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
 end
 
 group :development do
