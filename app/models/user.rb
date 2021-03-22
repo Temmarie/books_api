@@ -1,7 +1,11 @@
 class User < ApplicationRecord
-has_many :books
+  include Devise::JWT::RevocationStrategies::JTIMatcher
+
+  has_many :books
 
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :validatable
+         :recoverable, :rememberable, :validatable, 
+         :jwt_authenticatable, jwt_revocation_strategy: self
+
 
 end
