@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
      resources :books, only: [:index, :show, :create]
+     get '/current_user', to: 'current_user#index'
     end
   end
 end
