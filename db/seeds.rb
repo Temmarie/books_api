@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+User.create!(email: "tam@email.com", id: 2, password: "jujutsukaisen"  )
+
 Book.create([
     {    name: "Pet Sematary",
         image: 'https://res.cloudinary.com/temmarie/image/upload/v1613479201/gvn1tusdqfmyi3xkwgxs.jpg',

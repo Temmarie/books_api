@@ -9,10 +9,12 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
 
-  namespace :api do
+  namespace :api, defaults: { format: :json }  do
     namespace :v1 do
      resources :books, only: [:index, :show, :create]
      get '/current_user', to: 'current_user#index'
+     get 'private/test'
+ 
     end
   end
 end
