@@ -1,20 +1,20 @@
 class Api::V1::BooksController < ApplicationController
   def index
     books = Book.all
-    render json: books, status:200
+    render json: books, status: 200
   end
 
   def create
     book = Book.new(
-    name: book_params[:name],
-    author: book_params[:author],
-    image: book_params[:image],
-    description: book_params[:description]
+      name: book_params[:name],
+      author: book_params[:author],
+      image: book_params[:image],
+      description: book_params[:description]
     )
     if book.save
       render json: book, status: 200
     else
-      render json: { error: "Error creating book."}
+      render json: { error: 'Error creating book.' }
     end
   end
 
@@ -23,7 +23,7 @@ class Api::V1::BooksController < ApplicationController
     if book
       render json: book, status: 200
     else
-      render json: {error: "Book not found."}
+      render json: { error: 'Book not found.' }
     end
   end
 
@@ -33,7 +33,8 @@ class Api::V1::BooksController < ApplicationController
   # end
 
   private
+
   def book_params
-    params.require(:book).permit([ :name, :author, :image, :description])
+    params.require(:book).permit(%i[name author image description])
   end
 end
