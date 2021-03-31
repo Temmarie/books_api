@@ -12,7 +12,7 @@ class FavsController < ApplicationController
       render json: { error: 'Book already in favorites' }, status: :unprocessable_entity
     else
       Fav.create!(user_id: logged_in_user.id, book_id: params[:book_id])
-      render json: { message: 'Favourite Created succesfully' }, status: :created
+      render json: { message: 'Favourite Book Created succesfully' }, status: :created
     end
   end
 end
