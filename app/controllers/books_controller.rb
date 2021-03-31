@@ -1,3 +1,4 @@
+# rubocop:disable Lint/UselessAssignment
 class BooksController < ApplicationController
   skip_before_action :authorized, only: %i[index show]
 
@@ -11,3 +12,4 @@ class BooksController < ApplicationController
     render json: @book
   end
 end
+# rubocop:enable Lint/UselessAssignment

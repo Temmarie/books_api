@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe "Users", type: :request do
-  describe "GET /index" do
+RSpec.describe 'Users', type: :request do
+  describe 'GET /index' do
     before do
-      get "http://localhost:3001/books"
+      get 'http://localhost:3001/books'
     end
     it 'returns http success' do
       expect(response).to have_http_status(:success)
@@ -12,5 +12,4 @@ RSpec.describe "Users", type: :request do
       expect(response.body).to match('[]')
     end
   end
-
 end
