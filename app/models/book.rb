@@ -1,3 +1,3 @@
 class Book < ApplicationRecord
-    has_many :favs
+  has_many :favs
 end
