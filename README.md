@@ -1,14 +1,14 @@
-# SHOES API
+# BOOKS API
 
 A RESTFUL API built with Ruby on Rails. Its uses BCrypt and JWT gems to implement Authentication & Authorization. It performs CRUD operations on the various resources it serves.
 
 ## About this API
 
-This API is built as the back end for a mobile web application [Geeks Read](https://github.com/Temmarie/Readit) built with React on the front end and is separately deployed to Firebase.
+This API is built as the back end for a mobile web application [Geeks Read](https://github.com/Temmarie/Find-Books) built with React on the front end and is separately deployed to Firebase.
 
 ## End Points
 
-There are a couple of endpoints exposed by this api and can be accessed online using `https://dem-shoes.herokuapp.com/` as the base Url.
+There are a couple of endpoints exposed by this api and can be accessed online using `http://localhost:3004s/` as the base Url.
 
 ### POST Endpoints
 
@@ -46,8 +46,8 @@ To use this app locally, this is what you need to:
 - `cd` into the project directory
 - Run `bundle install` to get all necessary gems installed.
 - Run `rails db:migrate` to migrate all databases.
-- Run `rails s -p 3001` to open the app on another port because React apps open on `port 3000` by default.
-- Copy `http://localhost:3001/` to your frontend app and use the various end points to access the API functionalities.
+- Run `rails s` to open the app on another port because React apps open on `port 3000` by default.
+- Copy `http://localhost:3004/` to your frontend app and use the various end points to access the API functionalities.
 
 ### Feel free to check the [issues page](https://github.com/Temmarie/Book-api/issues) and leave your contributions.
 
