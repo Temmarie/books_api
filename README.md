@@ -53,7 +53,7 @@ To use this app locally, this is what you need to:
 
 ## Contact
 
-👤 **Osong Agberndifor**
+👤 **Grace Ekunola**
 
 - Github: [Temmarie](https://github.com/Temmarie)
 - Twitter: [@TemmarieW](https://twitter.com/TemmarieW)
