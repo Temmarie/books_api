@@ -4,7 +4,7 @@ A RESTFUL API built with Ruby on Rails. Its uses BCrypt and JWT gems to implemen
 
 ## About this API
 
-This API is built as the back end for a mobile web application [Geeks Read](https://github.com/Temmarie/Find-Books) built with React on the front end and is separately deployed to Firebase.
+This API is built as the back end for a web application [Geeks Read](https://github.com/Temmarie/Find-Books) built with React on the front end and is separately deployed to Firebase.
 
 ## End Points
 
