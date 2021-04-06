@@ -34,14 +34,14 @@ There are a couple of endpoints exposed by this api and can be accessed online u
 
 To use this app locally, this is what you need to:
 
-- [Download](https://github.com/Temmarie/Book-api/archive/master.zip) or clone this repo:
+- [Download](https://github.com/Temmarie/books_api/archive/master.zip) or clone this repo:
   - Clone with SSH:
   ```
-    git@github.com:Temmarie/Book-api.git
+    git@github.com:Temmarie/books_api.git
   ```
   - Clone with HTTPS
   ```
-    https://github.com/Temmarie/Book-api.git
+    https://github.com/Temmarie/books_api.git
   ```
 - `cd` into the project directory
 - Run `bundle install` to get all necessary gems installed.
@@ -49,7 +49,7 @@ To use this app locally, this is what you need to:
 - Run `rails s` to open the app on another port because React apps open on `port 3000` by default.
 - Copy `http://localhost:3004/` to your frontend app and use the various end points to access the API functionalities.
 
-### Feel free to check the [issues page](https://github.com/Temmarie/Book-api/issues) and leave your contributions.
+### Feel free to check the [issues page](https://github.com/Temmarie/books_api/issues) and leave your contributions.
 
 ## Contact
 
