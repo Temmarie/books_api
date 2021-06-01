@@ -8,7 +8,7 @@ This API is built as the back end for a web application [Geeks Read](https://git
 
 ## End Points
 
-There are a couple of endpoints exposed by this api and can be accessed online using 'https://gentle-atoll-23665.herokuapp.com/` as the base Url.
+There are a couple of endpoints exposed by this api and can be accessed online using 'https://gentle-atoll-23665.herokuapp.com/' as the base Url.
 
 ### POST Endpoints
 
