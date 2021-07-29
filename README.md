@@ -49,7 +49,7 @@ To use this app locally, this is what you need to:
 - Run `rails s` to open the app on another port because React apps open on `port 3000` by default.
 - Copy `http://localhost:3004/` to your frontend app and use the various end points to access the API functionalities.
 
-### Feel free to check the [issues page](https://github.com/Temmarie/Book-api/issues) and leave your contributions.
+Feel free to check the [issues page](https://github.com/Temmarie/Book-api/issues) and leave your contributions.
 
 ## Contact
 
