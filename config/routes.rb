@@ -1,3 +1,8 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+    root 'books#index'
+    resources :favs, only: [:index, :create]
+    get 'books', to: 'books#index'
+    get 'books/:id', to: 'books#show'
+    post "/users", to: "users#create"
+    post "/login", to: "auth#login"
 end
